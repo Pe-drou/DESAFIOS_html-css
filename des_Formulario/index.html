@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Satanas me ajuda pq jesus n vai</title>
+</head>
+<body>
+    <h1>Formulário de interação</h1>
+    <form action="">
+        
+        <p>Digite o seu nome <input type="text" name="nome" placeholder="Digite aqui" required></p>
+        <p>Digite o seu endereço <input type="text" name="ende" placeholder="Digite aqui (Rua e Num.)" required></p>
+        <p>Digite o Bairro <input type="text" name="bairro" placeholder="Digite aqui" required></p>
+        <p>Digite a Cidade <input type="text" name="cidade" placeholder="Digite aqui" required></p>
+        <p>Digite sua data de nascimento <input type="date" name="data" required></p>
+        <p>Entre com a sua mensagem</p>
+        <textarea name="mensagem" rows="8" cols="75" maxlength="500" placeholder="Digite até 500 caracteres"></textarea>
+        <p>Escolha o(s) modelo(s) de trabalho</p>
+        <ul>
+            <li><input type="checkbox" name="mode"> Presencial</li>
+            <li><input type="checkbox" name="mode"> Remoto</li>
+            <li><input type="checkbox" name="mode"> Híbrido</li>
+        </ul>
+        <p>Escolha o perídodo de trabalho:</p>
+        <ul>
+            <li><input type="radio" name="peri"> Manhã</li>
+            <li><input type="radio" name="peri"> Tarde</li>
+            <li><input type="radio" name="peri"> Noite</li>
+        </ul>
+        <p>Escolha um estado:</p>
+        <select name="estado">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio De Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="ES">Espirito Santo</option>
+        </select>
+        <p><input type="checkbox" name="termo" required> Aceito os termos de uso do site</p>
+        <a href="enviar.html" target="_self"><input type="submit" value="Enviar"></a> <a href="index.html"><input type="reset" name="limpar" value="Limpar os Campos"></a>
+    </form>
+</body>
+</html>
